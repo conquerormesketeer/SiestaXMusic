@@ -19,7 +19,7 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text=" 😵‍💫Commands", callback_data="command_menu"
+                text="Commands😵‍💫", callback_data="command_menu"
             ),
             InlineKeyboardButton(
                 text=" Settings", callback_data="settings_helper"
@@ -36,7 +36,7 @@ START_BUTTON_PRIVATE = InlineKeyboardMarkup(
         ],
         [   
             InlineKeyboardButton(
-                text="😵‍💫 Commands", callback_data="command_menu"
+                text=" Commands😵‍💫", callback_data="command_menu"
             ),                       
         ],        
     ]
@@ -58,10 +58,10 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="command_menu"
+                text=" Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🧎‍♀️ Close", callback_data="close_btn"
+                text=" Close", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -83,10 +83,10 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="command_menu"
+                text=" Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="👩‍🦯 Close", callback_data="close_btn"
+                text="Close", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -95,10 +95,10 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
 BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="advanced_cmd"
+                text="Back", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="👩‍🦯 Close", callback_data="close_btn"
+                text=" Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -140,10 +140,10 @@ Auth Users can use admin commands without admin rights in your chat.
 AUTH_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="admin_cmd"
+                text=" Back", callback_data="admin_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text=" Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -190,7 +190,7 @@ force stands for force play.
 
 
 BASIC_TEXT = """
-🧚‍♂️ **Basic Commands:**
+ **Basic Commands:**
 
 /start - Start the bot
 
@@ -210,10 +210,10 @@ BASIC_TEXT = """
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="command_menu"
+                text="Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="👩‍🦯 Close", callback_data="close_btn"
+                text="Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -227,10 +227,10 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="command_menu"
+                text="Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="👩‍🦯 Close", callback_data="close_btn"
+                text="Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -244,15 +244,15 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="📚 Advanced Commands", callback_data="advanced_cmd"
+                text=" Advanced Commands", callback_data="advanced_cmd"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="🚶‍♀️ Back", callback_data="open_start_menu"
+                text=" Back", callback_data="open_start_menu"
             ),
             InlineKeyboardButton(
-                text="👩‍🦯 Close", callback_data="close_btn"
+                text="Close", callback_data="close_btn"
             ),            
         ],                        
     ]
