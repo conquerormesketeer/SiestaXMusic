@@ -64,8 +64,8 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
-SUPPORT_CHANNEL = "https://t.me/TechZBots"
-SUPPORT_GROUP = "https://t.me/TechZBots_Support"
+SUPPORT_CHANNEL = "https://t.me/TeamFoxBotZ"
+SUPPORT_GROUP = "https://t.me/TeamFoxBots"
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
