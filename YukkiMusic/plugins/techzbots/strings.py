@@ -7,8 +7,6 @@ START_TEXT = f"""
 ✨ **Hello MENTION !**
 
 **You can use [{BOT_NAME}](https://t.me/{BOT_USERNAME}) to play Music or Videos in your Group Video Chat.**
-
-💡 **Find out all the Bot's commands and how they work by clicking on the ➤ 📚 Commands button**
 """
 
 COMMANDS_TEXT = f"""
@@ -21,18 +19,10 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
     [   
         [
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
+                text=" 😵‍💫Commands", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔧 Settings", callback_data="settings_helper"
-            ),                                   
-        ],
-        [
-            InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TeamFoxBotZ"
-            ),
-            InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TeamFoxBots"
+                text=" Settings", callback_data="settings_helper"
             ),                       
         ],        
     ]
@@ -41,20 +31,12 @@ START_BUTTON_GROUP = InlineKeyboardMarkup(
 START_BUTTON_PRIVATE = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="➕ Add me to Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                text=" Add me to Group🧚‍♀️ ", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
             ),            
         ],
         [   
             InlineKeyboardButton(
-                text="📚 Commands", callback_data="command_menu"
-            ),                       
-        ],
-        [
-            InlineKeyboardButton(
-                text="📣 Updates Channel", url="https://t.me/TeamFoxBotZ"
-            ),
-            InlineKeyboardButton(
-                text="💬 Support Group", url="https://t.me/TeamFoxBots"
+                text="😵‍💫 Commands", callback_data="command_menu"
             ),                       
         ],        
     ]
@@ -72,17 +54,14 @@ COMMANDS_BUTTON_USER = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Play Commands", callback_data="play_cmd"
-            ),            
-            InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
-            ),                                   
+            ),                                    
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="🚶‍♀️ Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="🧎‍♀️ Close", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -100,22 +79,14 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(
                 text="Play Commands", callback_data="play_cmd"
-            ),
-            InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
-            ),            
-        ],
-        [
-            InlineKeyboardButton(
-                text="Extra Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13-2"
             ),                                   
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="🚶‍♀️ Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="👩‍🦯 Close", callback_data="close_btn"
             ),            
         ],                
     ]
@@ -124,31 +95,15 @@ COMMANDS_BUTTON_SUDO = InlineKeyboardMarkup(
 BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
+                text="🚶‍♀️ Back", callback_data="advanced_cmd"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="👩‍🦯 Close", callback_data="close_btn"
             ),            
         ],                        
     ]
 )
 
-SUDO_BACK_BUTTON = InlineKeyboardMarkup(
-    [   [
-            InlineKeyboardButton(
-                text="Sudo Commands", url="https://telegra.ph/SiestaXMusic-Commands-03-13"
-            ),                        
-        ],
-        [
-            InlineKeyboardButton(
-                text="↪️ Back", callback_data="advanced_cmd"
-            ),
-            InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
-            ),            
-        ],                        
-    ]
-)
 
 
 ADMIN_TEXT = f"""
@@ -235,7 +190,7 @@ force stands for force play.
 
 
 BASIC_TEXT = """
-💠 **Basic Commands:**
+🧚‍♂️ **Basic Commands:**
 
 /start - Start the bot
 
@@ -255,10 +210,10 @@ BASIC_TEXT = """
 BASIC_BACK_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="🚶‍♀️ Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="👩‍🦯 Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -272,10 +227,10 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="command_menu"
+                text="🚶‍♀️ Back", callback_data="command_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="👩‍🦯 Close", callback_data="close_btn"
             ),            
         ],                        
     ]
@@ -284,7 +239,7 @@ ADMIN_BACK_BUTTON = InlineKeyboardMarkup(
 COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
     [   [
             InlineKeyboardButton(
-                text="🔍 Basic Commands", callback_data="basic_cmd"
+                text=" Basic Commands", callback_data="basic_cmd"
             ),                                   
         ],
         [
@@ -294,10 +249,10 @@ COMMAND_MENU_BUTTON = InlineKeyboardMarkup(
         ],
         [
             InlineKeyboardButton(
-                text="↪️ Back", callback_data="open_start_menu"
+                text="🚶‍♀️ Back", callback_data="open_start_menu"
             ),
             InlineKeyboardButton(
-                text="🔄 Close", callback_data="close_btn"
+                text="👩‍🦯 Close", callback_data="close_btn"
             ),            
         ],                        
     ]
